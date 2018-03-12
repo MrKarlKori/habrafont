@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'habrafont';
+    src: url('Habrfont-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa-habrahabr:before {
+    font-family: habrafont;
+    content: "A";
+}
+
+.fa-geektimes:before {
+    font-family: habrafont;
+    content: "B";
+}
+
+.fa-toster:before {
+    font-family: habrafont;
+    content: "C";
+}
+
+i {
+	color: #333;
+}
